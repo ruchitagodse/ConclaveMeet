@@ -316,7 +316,7 @@ const sendWhatsAppMessage = async (userName, eventName, eventDate, eventLink, ph
 
             <li className='form-row'>
               <div className='multipleitem'>
-                <button className='submitbtn' type="submit">Create Conclave</button>
+                <button className='submitbtn' type="submit">Create</button>
               </div>
             </li>
           </ul>
