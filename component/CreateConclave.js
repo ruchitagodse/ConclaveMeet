@@ -338,30 +338,28 @@ const sendWhatsAppMessage = async (userName, eventName, eventDate, eventLink, ph
 
          
 
-            <li>
-              <h4>Leader’s Role & Responsibility:<sup>*</sup></h4>
-              <div className='multipleitem'>
-                <textarea
-                  name="leaderRole"
-                  value={form.leaderRole}
-                  onChange={handleChange}
-                  required
-                />
-              </div>
-            </li>
-
-            <li>
+     <ul>
+   <li className='form-row'>
+            <h4>Leader’s Role & Responsibility:</h4>
+            <textarea
+              name="leaderRole"
+              value={form.leaderRole}
+              onChange={handleChange}
+              required
+            />
+          </li>
+           <li className='form-row'>
               <h4>NT Members’ Roles & Responsibilities:<sup>*</sup></h4>
-              <div className='multipleitem'>
+ 
                 <textarea
                   name="ntRoles"
                   value={form.ntRoles}
                   onChange={handleChange}
                   required
                 />
-              </div>
+              
             </li>
-
+</ul>   
             <li className='form-row'>
               <div className='multipleitem'>
                 <button className='submitbtn' type="submit">Create</button>
