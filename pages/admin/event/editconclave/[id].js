@@ -300,7 +300,7 @@ const formatDateTime = (seconds) => {
                             <h4>Meeting Link<sup>*</sup></h4>
                             <div className="multipleitem">
                               <input
-                                type="url"
+                                type="text"
                                 name="link"
                                 value={meetingForm.link}
                                 onChange={handleMeetingChange}
@@ -327,7 +327,7 @@ const formatDateTime = (seconds) => {
 
                         <li className="form-row">
                           <div className="multipleitem">
-                            <button type="submit" className="submitbtn">Add Meeting</button>
+                            <button type="submit" className="submitbtn">Create</button>
                           </div>
                         </li>
                       </ul>
